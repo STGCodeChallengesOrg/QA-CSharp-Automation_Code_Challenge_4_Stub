@@ -15,9 +15,10 @@ Listed below is the sample code stub for running this test.
 
 namespace Automation_Code_Challenge_4_CSharp
 {
+    [TestClass]
     public class WebPageTest
     {
-        [Test]
+        [TestMethod]
         public void TestLauncher()
         {
             // Verify Page Title
